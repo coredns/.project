@@ -1,0 +1,72 @@
+# .project metadata for CoreDNS
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "coredns"
+name: "CoreDNS"
+description: "CoreDNS is a DNS server. It is written in Go. It can be used in a multitude of environments because of its flexibility. "
+type: "project"
+project_lead: "chrisohaver" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#coredns"
+    link: "https://cloud-native.slack.com/messages/coredns/"
+    primary: true
+
+maturity_log:
+  - phase: "graduated"
+    date: "2017-02-27T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/172" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/coredns/coredns"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://coredns.io/"
+
+artwork: "https://landscape.cncf.io/logos/core-dns.svg"
+
+adopters:
+  path: "https://github.com/coredns/coredns/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "coredns/coredns"
+
+social:
+  twitter: "https://twitter.com/corednsio"
+
+security:
+  policy:
+    path: "https://github.com/coredns/coredns/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/coredns/coredns/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/coredns/coredns/blob/master/.github/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/coredns/coredns/blob/master/.github/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/coredns/coredns/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/coredns/coredns/blob/master/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Coordination & Service Discovery"
+
+# CLOMonitor Score: 82/100
+# Documentation: 93 | License: 75 | Best Practices: 79 | Security: 73
