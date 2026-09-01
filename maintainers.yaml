@@ -15,7 +15,7 @@ maintainers:
           - yongtang
           - bradbeam
           - dilyevsky
-          - fastest963
+          - jameshartig
           - greenpau
           - isolus
           - pmoroney
@@ -23,6 +23,8 @@ maintainers:
           - stp-ip
           - superq
           - houyuwushang
+          - Tantalor93
+          - thevilledev
       # Unmanaged teams: teams with "managed: false" are tracked in this
       # file for documentation but are excluded from CNCF resource
       # provisioning (mailing lists, service desk, Copilot seats, etc).
