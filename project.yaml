@@ -26,7 +26,7 @@ repositories: # TODO: AUTO-DETECTED primary — please verify
 
 website: "https://coredns.io/"
 
-artwork: "https://landscape.cncf.io/logos/core-dns.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/coredns"
 
 adopters:
   path: "https://github.com/coredns/coredns/blob/master/ADOPTERS.md"
